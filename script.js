@@ -56,7 +56,7 @@ function createChatButton() {
 
     // Cria a URL de redirecionamento com os parâmetros
     var redirectUrl =
-      "https://www.adtrack.com.br?gclid=" +
+      "https://app.3mindtecnologia.com.br/version-01bgy/google_redirect?gclid=" +
       gclid +
       "&empresa_unique_id=" +
       empresaId;
