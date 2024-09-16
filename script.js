@@ -18,9 +18,9 @@ function createChatButton() {
   button.style.backgroundColor = "#40C351";
   button.style.color = "white";
   button.style.border = "none";
-  button.style.borderRadius = "10%";
-  button.style.width = "55px";
-  button.style.height = "55px";
+  button.style.borderRadius = "20%";
+  button.style.width = "45px";
+  button.style.height = "45px";
   button.style.backgroundImage =
     'url("https://img.icons8.com/color/48/whatsapp--v1.png")';
   button.style.backgroundSize = "cover";
