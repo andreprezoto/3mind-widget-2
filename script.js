@@ -2,7 +2,7 @@
 const scriptTag = document.currentScript;
 
 // Extrai o valor do atributo 'user_id'
-const userId = scriptTag.getAttribute("user_id");
+const empresaId = scriptTag.getAttribute("user_id");
 
 // Função para criar o botão de chat dinamicamente
 function createChatButton() {
@@ -56,7 +56,10 @@ function createChatButton() {
 
     // Cria a URL de redirecionamento com os parâmetros
     var redirectUrl =
-      "https://www.adtrack.com.br?gclid=" + gclid + "&user_unique_id=" + userId;
+      "https://www.adtrack.com.br?gclid=" +
+      gclid +
+      "&empresa_unique_id=" +
+      empresaId;
 
     // Redireciona o usuário
     window.location.href = redirectUrl;
